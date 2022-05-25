@@ -49,9 +49,16 @@ body{
   align-items: center;
 }
 .language{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70px;
+  margin-right: 25px;
+  padding: 3px;
+  line-height: 15px;
   background-color: #DCE6FF;
   border-radius: 39px;
-  margin-right: 25px;
+  text-align: center;
 }
 .lang-text{
   font-size: 13px;
@@ -69,6 +76,7 @@ body{
   height: 30px;
   border-radius: 50%;
   background-color: #fff;
+  padding-top: 7px;
 }
 .lang-ru{
   text-decoration: none;
