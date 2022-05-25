@@ -143,6 +143,9 @@ body{
   justify-content: center;
   padding: 0;
 }
+.main-botom-list-box{
+  margin-bottom: 10px;
+}
 
 .hero-list-box{
   width: 394px;
@@ -185,6 +188,7 @@ body{
 .hero-list-box-log{
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 .box-logo{
   margin-right: 10px;
@@ -231,15 +235,20 @@ body{
   width: 797px;
   margin-right: 10px;
 }
+.botom-box-in-box{
+  margin-top: 10px;
+}
 
 .main-botom-list-box{
+  width: 797px;
+  height: 205px;
   display: flex;
-  padding: 20px 20px 18px 17px;
+  padding: 20px 20px 20px 17px;
   background-color: #F6F6F6;
   border-radius: 15px;
-  width: 797px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
+
 .botom-img{
   margin-right: 15px;
 }
@@ -264,6 +273,9 @@ body{
 .botom-box-in-box{
   display: flex;
   align-items: center;
+}
+.botom-logo-text{
+  margin: 0;
 }
 .botom-logo{
   margin-right: 10px;
@@ -313,7 +325,7 @@ body{
 }
 .botom-end-box-rek{
   margin: 0 auto;
- margin-top: 20px; 
+ margin-top: 10px; 
 }
 .footer-logo-text{
   width: 229px;
@@ -375,4 +387,8 @@ margin-bottom: 20px;
 .sybol-box{
   list-style: none;
   margin-left: 25px; 
+}
+.ha{
+  margin: 0;
+  
 }
