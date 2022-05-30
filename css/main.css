@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 body{
+  margin: 0;
   font-family: 'Rubik', sans-serif;
 }
 
 
 .header-top{
   background-color: #F6F6F6;
+  padding: 30px 0 30px 12px;
 }
 .container{
   width: 1200px;
@@ -120,7 +122,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
+  padding: 30px 0 0 0;
+}
+.hr{
+  margin-bottom: 40px;
 }
 .header-list-box{
   list-style: none;
@@ -154,6 +159,54 @@ body{
   list-style: none;
   border-radius: 15px;
   padding: 20px 17px 15px 17px;
+  
+}
+.bg-img::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* bottom: -px; */
+  background-image: url("../images/KB.png");
+}
+.hero-list-box-log::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+.bg-img-center::before{
+  background-image: url("../images/G.png");
+  background-repeat: no-repeat;
+}
+.bg-img-end::before{
+  background-image: url("../images/X+.png");
+  background-repeat: no-repeat;
+}
+.bg-img-botom-start::before{
+  background-image: url("../images/digger.png");
+  background-repeat: no-repeat;
+}
+.bg-img-botom-center::before{
+  background-image: url("../images/L.png");
+  background-repeat: no-repeat;
+}
+.bg-img-botom-end::before{
+  background-image: url("../images/CH.png");
+  background-repeat: no-repeat;
+}
+.remember{
+  background-image: url("../images/remmember.png");
+  background-repeat: no-repeat;
+}
+
+
+
+.box-logo-text{
+  margin: 0;
+  margin-left: 27px;
+  
 }
 .none{
   margin-left: 10px;
@@ -191,7 +244,7 @@ body{
   margin-top: 10px;
 }
 .box-logo{
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .remember{
@@ -199,7 +252,7 @@ body{
   justify-content: space-between;
   width: 1050px;
   margin: 0 auto;
-  background-color: #f1d2ba;
+  /* background-color: #f1d2ba; */
   padding: 24px 71px 24px 29px;
   border-radius: 15px;
 }
@@ -215,9 +268,8 @@ body{
 .remember-link{
   width: 149px;
   height: 50px;
-  background: #f78b3b;
+  background-color: #F78B3B;
   color: #fff;
-  background: #7a6042;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,7 +300,9 @@ body{
   border-radius: 15px;
   /* margin-bottom: 10px; */
 }
-
+.botom-logo-text{
+  width: 160px;
+}
 .botom-img{
   margin-right: 15px;
 }
@@ -276,6 +330,31 @@ body{
 }
 .botom-logo-text{
   margin: 0;
+  margin-left: 30px;
+}
+.botom-bg-img-second::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images-2/T.png");
+  background-repeat: no-repeat;
+}
+.bg-img-tretiy{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images-2/PBG.png");
+  background-repeat: no-repeat;
+}
+.botom-bg-end::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images-2/solenka.png");
+  background-repeat: no-repeat;
 }
 .botom-logo{
   margin-right: 10px;
