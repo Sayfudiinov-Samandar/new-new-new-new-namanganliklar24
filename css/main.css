@@ -1,3 +1,30 @@
+/* rubik-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/rubik-v20-latin_cyrillic-regular.woff2') format('woff2'),
+       url('../fonts/rubik-v20-latin_cyrillic-regular.woff2') format('woff'); 
+}
+/* rubik-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/rubik-v20-latin_cyrillic-500.woff2') format('woff2'),
+       url('../fonts/rubik-v20-latin_cyrillic-500.woff') format('woff'); 
+}
+/* rubik-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/rubik-v20-latin_cyrillic-700.woff2') format('woff2'),
+       url('../fonts/rubik-v20-latin_cyrillic-700.woff') format('woff');
+}
 *{
   box-sizing: border-box;
 }
@@ -110,6 +137,8 @@ body{
   height: 45px;
   background-color: #fff;
   border-radius: 60px;
+  background-image: url("../rec/rec/Icon-Outline-sea421430499");
+  
 }
 .search-text{
   padding-left: 41px;
@@ -141,6 +170,7 @@ body{
 .hero-place{
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .hero-list{
@@ -197,6 +227,7 @@ body{
   background-repeat: no-repeat;
 }
 .remember{
+  /* content: ""; */
   background-image: url("../images/remmember.png");
   background-repeat: no-repeat;
 }
@@ -215,10 +246,11 @@ body{
 .hero-list-box-title{
   width: 346px;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  font-family: "Rubik";
   margin: 0;
   margin-bottom: 10px;
 }
@@ -227,6 +259,7 @@ body{
   
 }
 .list-box-title-text{
+  font-family: 'Rubik';
   width: 346px;
   font-weight: 400;
   font-size: 16px;
@@ -252,11 +285,14 @@ body{
   justify-content: space-between;
   width: 1050px;
   margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
   /* background-color: #f1d2ba; */
   padding: 24px 71px 24px 29px;
   border-radius: 15px;
 }
 .remember-text{
+  font-family: 'Rubik';
   width: 404px;
   margin: 0;
   font-weight: 500;
@@ -310,6 +346,7 @@ body{
   text-decoration: none;
 }
 .botom-box-title{
+  font-family: 'Rubik';
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -317,6 +354,7 @@ body{
   margin: 0;
 }
 .botom-box-text{
+  font-family: 'Rubik';
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -353,7 +391,7 @@ body{
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("../images-2/solenka.png");
+  background-image: url("../images-2/");
   background-repeat: no-repeat;
 }
 .botom-logo{
@@ -375,10 +413,17 @@ body{
 
 .esho-text{
   padding: 17px 343px  17px 343px;
+  margin-bottom: 100px;
 }
 .botom-end-title{
   margin-top: 0;
   margin-bottom: 35px;
+  /* font-family: 'Rubik'; */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
 }
 .botom-end{
   width: 393px;
@@ -392,11 +437,12 @@ body{
 }
 .botom-list-end{
   padding-left: 0;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   margin: 0;
 }
 .time-text{
   margin: 0;
+  margin-top: 15px;
 }
 .botom-end-rek{
   margin: 0 auto;
@@ -404,10 +450,20 @@ body{
 }
 .botom-end-box-rek{
   margin: 0 auto;
- margin-top: 10px; 
+  margin-top: 25px;
 }
 .footer-logo-text{
   width: 229px;
+}
+.botom-end-box-title{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 8px;
 }
 footer{
   background-color: #7297EF;
@@ -416,6 +472,8 @@ footer{
   padding: 40px;
 }
 .footer-logo-text{
+  font-family: 'Rubik';
+  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
