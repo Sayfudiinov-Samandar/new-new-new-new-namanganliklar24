@@ -111,6 +111,21 @@ body{
   text-decoration: none;
   color: #A6A6A6;
 }
+/* .header{
+  margin-bottom: 591px;
+} */
+
+.search-text::before{
+  position: absolute;
+  content: "";
+  background-image: url('../rec/rec/Icon-Outline-search.svg');
+  background-position: calc(50% - 10px) calc(50% + 0px);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  
+}
+
 .header-input{
   width: 276px;
   border-radius: 60px;
@@ -130,7 +145,8 @@ body{
   font-size: 14px;
   line-height: 17px;
   color: #8D8D8D;
-  padding-left: 41px;
+  margin-right: 41px;
+  /* padding-left: 41px; */
 }
 .header-input{
   width: 275px;
@@ -141,6 +157,7 @@ body{
   
 }
 .search-text{
+  /* margin-right: 41px; */
   padding-left: 41px;
   font-size: 14px;
   line-height: 17px;
@@ -160,6 +177,7 @@ body{
   list-style: none;
 }
 .header-link-box-text{
+  font-family: 'Rubik';
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
@@ -450,7 +468,7 @@ body{
 }
 .botom-end-box-rek{
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .footer-logo-text{
   width: 229px;
