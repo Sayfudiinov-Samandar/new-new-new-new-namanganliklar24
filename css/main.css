@@ -1,6 +1,6 @@
 /* rubik-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local(''),
@@ -9,7 +9,7 @@
 }
 /* rubik-500 - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
   font-weight: 500;
   src: local(''),
@@ -18,7 +18,7 @@
 }
 /* rubik-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local(''),
@@ -30,7 +30,7 @@
 }
 body{
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik',"Arial" sans-serif;
 }
 
 
@@ -117,11 +117,12 @@ body{
 
 .header-input::before{
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   content: "";
+  border-radius: 50%;
   background-image: url('../rec/rec/Icon-Outline-search.svg');
-  background-position: calc(50% + 5px) calc(50% + 2px);
+  background-position: left 6px top 12px; 
   background-repeat: no-repeat; 
 }
 
@@ -130,6 +131,12 @@ body{
   border-radius: 60px;
   margin-right: 25px;
   background-color: #fff;
+}
+.header-input-box{
+  border: none;
+  border-radius: 20px;
+  padding: 15px 0 13px 41px;
+  width: 275px;
 }
 .log-in{
   padding: 13px 20px;
@@ -147,14 +154,7 @@ body{
   margin-right: 41px;
   /* padding-left: 41px; */
 }
-.header-input{
-  width: 275px;
-  height: 45px;
-  background-color: #fff;
-  border-radius: 60px;
-  background-image: url("../rec/rec/Icon-Outline-sea421430499");
-  
-}
+
 .search-text{
   /* margin-right: 41px; */
   padding-left: 41px;
@@ -176,7 +176,7 @@ body{
   list-style: none;
 }
 .header-link-box-text{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
@@ -209,12 +209,11 @@ body{
   
 }
 .bg-img::before{
+  background-image: url("../images/KB.png");
   content: "";
   position: absolute;
   width: 20px;
   height: 20px;
-  /* bottom: -px; */
-  background-image: url("../images/KB.png");
 }
 .hero-list-box-log::before{
   content: "";
@@ -267,7 +266,7 @@ body{
   font-size: 20px;
   line-height: 26px;
   color: #000000;
-  font-family: "Rubik";
+  font-family: "Rubik","Arial",sans-serif;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -276,7 +275,7 @@ body{
   
 }
 .list-box-title-text{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   width: 346px;
   font-weight: 400;
   font-size: 16px;
@@ -309,7 +308,7 @@ body{
   border-radius: 15px;
 }
 .remember-text{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   width: 404px;
   margin: 0;
   font-weight: 500;
@@ -353,9 +352,7 @@ body{
   border-radius: 15px;
   /* margin-bottom: 10px; */
 }
-.botom-logo-text{
-  width: 160px;
-}
+
 .botom-img{
   margin-right: 15px;
 }
@@ -363,7 +360,7 @@ body{
   text-decoration: none;
 }
 .botom-box-title{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -371,13 +368,14 @@ body{
   margin: 0;
 }
 .botom-box-text{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #4A4B4C;
   margin: 0;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .botom-box-in-box{
   display: flex;
@@ -435,16 +433,15 @@ body{
 .botom-end-title{
   margin-top: 0;
   margin-bottom: 35px;
-  /* font-family: 'Rubik'; */
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
-  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+  color: #000;
 }
 .botom-end{
   width: 393px;
-  height: 502px;
+  height: 682px;
   background: #F6F6F6;
   border-radius: 15px;
   padding: 20px 20px 25px 10px;
@@ -473,7 +470,7 @@ body{
   width: 229px;
 }
 .botom-end-box-title{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -489,7 +486,7 @@ footer{
   padding: 40px;
 }
 .footer-logo-text{
-  font-family: 'Rubik';
+  font-family: "Rubik","Arial",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -545,4 +542,101 @@ margin-bottom: 20px;
 .ha{
   margin: 0;
   
+}
+.second-page-two{
+  background-image: url("../page-2/logo/vt.png");
+  background-repeat: no-repeat;
+}
+.second-page-three{
+  background-image: url("../page-2/logo/dns.png");
+  background-repeat: no-repeat;
+}
+.second-page-four{
+  background-image: url("../page-2/logo/sputnik.png");
+  background-repeat: no-repeat;
+}
+.second-page-five{
+  background-image: url("../page-2/logo/i.png");
+  background-repeat: no-repeat;
+}
+.second-page-olti{
+  background-image: url("../page-2/logo/kp.png");
+  background-repeat: no-repeat;
+}
+.second-page-seven{
+  background-image: url("../page-2/logo/fergana.png");
+  background-repeat: no-repeat;
+}
+.second-page-eight{
+  background-image: url("../images-2/solenka.png");
+  background-repeat: no-repeat;
+}
+.tesla-page::before{
+  background-image: url("../page-2/logo/solenka-wdith-30.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-position: left -5px  top 5px;
+}
+.tesla-hero{
+  width: 797px;
+}
+.tesla-olmos-rek{
+  margin-top: 20px;
+}
+.tesla-hero-title{
+  font-family: "Rubik","Arial",sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+}
+.tesla-text{
+  margin: 0;
+  font-family: "Rubik","Arial",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.text-end{
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #333;
+}
+.tesla-place{
+  padding: 0;
+}
+.tesla-img{
+  margin: 0;
+  margin-bottom: 25px;
+}
+.tesla-botom-list{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tesla-botom-list-box{
+  list-style: none;
+  width: 393px;
+  padding: 20px 18px 15px 17px ;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  margin: 0;
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+.botom-end--box-title{
+  font-family: "Rubik","Arial",sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
 }

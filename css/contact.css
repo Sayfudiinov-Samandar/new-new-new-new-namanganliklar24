@@ -378,3 +378,9 @@ margin-bottom: 20px;
   margin: 0;
   
 }
+.second-page-two::before{
+  background-image: url("../page-2/logo/vt.png");
+  content: "";
+  width: 20px;
+  height: 20px;
+}
