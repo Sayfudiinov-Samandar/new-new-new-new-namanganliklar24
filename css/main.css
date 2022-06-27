@@ -664,6 +664,7 @@ a{
   display: none;
 }
 .modal-window{
+  position: relative;
   margin: 350px auto;
   width: 764px;
   padding: 60px;
@@ -676,6 +677,17 @@ a{
   transition: transform 1s ease;
 }
 
+.modal-window::after{
+  position: absolute;
+  right:  15px;
+  top: 15px;
+
+  content: "";
+  background-image: url("../images/not.svg");
+  background-size: contain;
+  width: 12px;
+  height: 12px;
+}
 .modal-window-close{
   animation-name: slidedown-close;
   animation-duration: 1s;
