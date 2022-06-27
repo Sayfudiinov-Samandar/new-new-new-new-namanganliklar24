@@ -10,7 +10,7 @@ var elModalCloseButton = document.querySelector(".modal-close-button");
 var elModalWindnow=document.querySelector(".modal-window")
 
 elModalCloseButton.addEventListener("click" , function (){
-  `  // elModalWindnow.classList.add("modal-window-close");
+  // `  // elModalWindnow.classList.add("modal-window-close");
     elModal.classList.remove("modal-show");
 })
 
