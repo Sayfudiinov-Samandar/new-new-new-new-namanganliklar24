@@ -15,4 +15,8 @@ elModalCloseButton.addEventListener("click" , function (){
 })
 
 
+var elModalSymbol=document.querySelector(".modal-close-button-symbol");
 
+elModalSymbol.addEventListener("click",function(){
+  elModal.classList.remove("modal-show");
+})
